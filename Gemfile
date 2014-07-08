@@ -37,4 +37,8 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'therubyracer'
+gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap-generators', '~> 3.1.1'
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'jquery-validation-rails'
